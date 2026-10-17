@@ -26,9 +26,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
     <div className={`flex items-center gap-2.5 select-none ${className}`}>
       {/* SVG Circular Emblem */}
       <div className="relative shrink-0 flex items-center justify-center">
-        <svg
-          src="/JOS_LOGO.gif" alt="Logo" />
-        </svg>
+        <img src="/JOS_LOGO.gif" alt="Logo" />
       </div>
 
       {/* Brand Text */}
